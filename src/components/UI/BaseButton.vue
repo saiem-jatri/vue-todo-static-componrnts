@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button class="px-4 py-2 bg-[#3a0061] border border-[#3a0061] text-white cursor-pointer" :class="mode">
+        <button class="px-4 py-2 bg-[#3a0061] border border-[rgb(58,0,97)] text-white cursor-pointer" :class="mode">
             <slot></slot>
         </button>
     </div>
